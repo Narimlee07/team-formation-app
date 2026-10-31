@@ -49,15 +49,13 @@ python -m streamlit run app_v7.py
 ## 8. 과제 추가 자료
 
 - PRD 및 구현 계획: `PRD.md`
-- 쉬움·보통·어려움 구현 내용:
-1) 사용한 과제 데이터: 어려움 난이도 CSV (`어려움_1.csv`)
-2) 구현 기능: 팀 지원, 팀원 투표, 모집 마감, AI 팀 배정 및 배정 결과 검증·확정
-3) AI 모델 3개: 아래 모델 목록 참고
-- AI 모델 3개:
+- 사용한 과제 데이터: 어려움 난이도 CSV (`어려움_1.csv`)
+- 구현 기능: 팀 지원, 팀원 투표, 모집 마감, AI 팀 배정, 배정 결과 검증 및 확정
+- 사용한 OpenRouter AI 모델:
   1. `nvidia/nemotron-3-ultra-550b-a55b:free`
   2. `nvidia/nemotron-3.5-lightning:free`
   3. `dots-studio/dots-3-note-preview:free`
-- OpenRouter 실패 상황 증거: 9번 항목의 이미지 참고
+- OpenRouter 실패 상황 증거: 9번 항목 참고
 
 ## 9. OpenRouter AI 모델 호출 실패 사례
 
