@@ -57,6 +57,6 @@ python -m streamlit run app_v7.py
 1차 모델 호출 시 잘못된 모델 식별자를 사용하여 HTTP 400 오류가 발생했다. 앱은 오류를 확인한 뒤 2차 모델인 `nvidia/nemotron-3.5-lightning:free`로 자동 전환했다. 2차 모델은 배정안을 생성했고, 앱의 5가지 검증을 모두 통과했다.
 
 - 실패 및 자동 전환 증거: `img/ai-model-failure.png`
-- 3개 모델 개별 호출 성공 증거: `img/ai-models-success.png`
+- 3개 모델 개별 호출 성공 증거: `img/openrouter_3models_success.png`
 
 ※ 첫 번째 시험은 실제 서비스 장애가 아니라, 1차 모델 실패 후 다음 모델로 넘어가는 기능을 확인하기 위해 의도적으로 잘못된 모델 식별자를 사용한 시험이다.
