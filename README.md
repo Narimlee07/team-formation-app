@@ -44,11 +44,15 @@ python -m streamlit run app_v7.py
 - `ADMIN_PASSWORD`
 - `OPENROUTER_MODELS`
 
+※ 비밀번호와 API 키 등 비밀 정보는 GitHub 저장소에 올리지 않고 Streamlit Secrets에 설정합니다.
 
 ## 8. 과제 추가 자료
 
 - PRD 및 구현 계획: `PRD.md`
-- 쉬움·보통·어려움 구현 내용: 팀 지원, 팀원 투표, 모집 마감, AI 팀 배정 및 배정 결과 검증 기능 구현
+- 쉬움·보통·어려움 구현 내용:
+1) 사용한 과제 데이터: 어려움 난이도 CSV (`어려움_1.csv`)
+2) 구현 기능: 팀 지원, 팀원 투표, 모집 마감, AI 팀 배정 및 배정 결과 검증·확정
+3) AI 모델 3개: 아래 모델 목록 참고
 - AI 모델 3개:
   1. `nvidia/nemotron-3-ultra-550b-a55b:free`
   2. `nvidia/nemotron-3.5-lightning:free`
