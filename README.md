@@ -78,4 +78,4 @@ Claude에게 팀 구성 앱의 테스트 시나리오 작성을 요청했을 때
 
 따라서 역할 약어를 제거하거나 약어 옆에 뜻을 표시하면 팀 구성 정보를 더 쉽게 확인할 수 있다.
 
-![우리 앱의 문제점](team-list-improvement.png)
+![우리 앱의 문제점](img/team-list-improvement.png)
